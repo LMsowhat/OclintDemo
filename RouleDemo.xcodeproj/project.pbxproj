@@ -16,6 +16,7 @@
 		D8119B4223B0695F0000392C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8119B4123B0695F0000392C /* main.m */; };
 		D8119B4C23B069600000392C /* RouleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8119B4B23B069600000392C /* RouleDemoTests.m */; };
 		D8119B5723B069600000392C /* RouleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8119B5623B069600000392C /* RouleDemoUITests.m */; };
+		D8119B6623B0C16F0000392C /* myperson.m in Sources */ = {isa = PBXBuildFile; fileRef = D8119B6523B0C16F0000392C /* myperson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		D8119B5223B069600000392C /* RouleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8119B5623B069600000392C /* RouleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouleDemoUITests.m; sourceTree = "<group>"; };
 		D8119B5823B069600000392C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8119B6423B0C16F0000392C /* myperson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myperson.h; sourceTree = "<group>"; };
+		D8119B6523B0C16F0000392C /* myperson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myperson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				D8119B3023B0695D0000392C /* AppDelegate.m */,
 				D8119B3223B0695D0000392C /* SceneDelegate.h */,
 				D8119B3323B0695D0000392C /* SceneDelegate.m */,
+				D8119B6423B0C16F0000392C /* myperson.h */,
+				D8119B6523B0C16F0000392C /* myperson.m */,
 				D8119B3523B0695D0000392C /* ViewController.h */,
 				D8119B3623B0695D0000392C /* ViewController.m */,
 				D8119B3823B0695D0000392C /* Main.storyboard */,
@@ -270,6 +275,7 @@
 				D8119B3723B0695D0000392C /* ViewController.m in Sources */,
 				D8119B3123B0695D0000392C /* AppDelegate.m in Sources */,
 				D8119B4223B0695F0000392C /* main.m in Sources */,
+				D8119B6623B0C16F0000392C /* myperson.m in Sources */,
 				D8119B3423B0695D0000392C /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
