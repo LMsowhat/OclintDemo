@@ -79,15 +79,18 @@ function oclintForProject () {
 	if [[ ${reportType} =~ ${REPORT_PMD} ]]  
 	then
 		nowReportType="-report-type pmd -o pmd.xml"
+        echo '---reporttype--pmd-----'
 	elif [[ ${reportType} =~ ${REPORT_HTML} ]] 
 	then
 		nowReportType="-report-type html -o oclint_result.html"	
+        echo '---reporttype--html-----'
 	else
 		nowReportType="-report-type xcode"
+        echo '---reporttype--xcode-----'
 	fi
 
 	# 自定义report 如：
-	 nowReportType="-report-type pmd -o pmd.html"
+#	 nowReportType="-report-type pmd -o pmd.html"
 
 	# 生成报表
 	oclint-json-compilation-database ${exclude} -- \
@@ -116,6 +119,6 @@ myworkspace="RouleDemo.xcworkspace"
 # 替换scheme的名字
 myscheme="RouleDemo"
 # 输出方式 xcode/pmd
-reportType="xcode"
+reportType="html"
 
 oclintForProject ${myworkspace} ${myscheme} ${reportType}
